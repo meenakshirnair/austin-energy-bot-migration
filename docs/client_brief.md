@@ -19,7 +19,7 @@ The current state, modeled for this project, is a classic Q&A bot: a fixed list 
 
 | User | What they need |
 |---|---|
-| Customer during an outage | What to do, how to report it, and when power is coming back. Often on a phone, often stressed |
+| Customer during an outage | What to do, how to report it, and where to check status. Often on a phone, often stressed |
 | Customer with a high or confusing bill | What the line items mean, payment options, and whether they qualify for help |
 | Customer moving in or out | Start, stop or transfer service |
 | Customer looking to save money | Rebates, GreenChoice, solar, EV charging |
@@ -78,6 +78,7 @@ The bot says so politely and points to the right place:
 - Anything account-specific: balances, payment history, usage. The bot has no account access by design
 - Corporate topics: RFPs, reports, careers, news
 - Other City of Austin services (water, trash, permits). Point to 3-1-1
+- Reporting a broken streetlight. The source content only covers requesting new streetlights, so the bot should say it can't help and point to 3-1-1
 
 ## 5. How success is measured
 
