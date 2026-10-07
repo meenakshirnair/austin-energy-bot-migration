@@ -25,38 +25,51 @@ The current state, modeled for this project, is a classic Q&A bot: a fixed list 
 | Customer looking to save money | Rebates, GreenChoice, solar, EV charging |
 | Spanish-speaking customer | Same needs, in Spanish. The source site is English only (machine translation) |
 
-## 3. Top 15 intents
+## 3. Intents
+
+19 intent groups in scope, plus out of scope. These labels match the Intent Group
+column in data/corpus.xlsx and the test set plan.
 
 **Informational: answered from help content (RAG)**
 
-| # | Intent | Example user message |
+| # | Intent group | Example user message |
 |---|---|---|
-| 1 | Outage safety and what to do | "power's out what do i do" |
-| 2 | Outage alerts signup | "how do I get texts when there's an outage" |
-| 3 | Understand my bill / rates | "what is the power supply adjustment on my bill" |
-| 4 | Payment options | "can I pay by phone" |
-| 5 | Customer Assistance Program | "I can't afford my bill, is there help" |
-| 6 | Residential rebates | "do you give rebates for a new AC" |
-| 7 | Weatherization assistance | "free home weatherization program" |
-| 8 | GreenChoice | "how do I switch to wind power" |
-| 9 | EV charging and rebates | "rebate for home EV charger" |
-| 10 | Home solar | "does Austin Energy buy back solar power" |
-| 11 | Scams | "someone called saying they'll cut my power today" |
-| 12 | Tree trimming near lines | "tree branches touching the power line in my yard" |
+| 1 | Safety | "power's out what do i do" |
+| 2 | Outage Alerts | "how do I get texts when there's an outage" |
+| 3 | Understand My Bill | "what is the power supply adjustment on my bill" |
+| 4 | Payment Options | "can I pay by phone" |
+| 5 | Payment Arrangement | "can i get more time to pay this month" |
+| 6 | Collections | "got a disconnection notice what do i do" |
+| 7 | CAP | "I can't afford my bill, is there help" |
+| 8 | Weatherization | "free home weatherization program" |
+| 9 | Rebates | "do you give rebates for a new AC" |
+| 10 | GreenChoice | "how do I switch to wind power" |
+| 11 | Home Solar | "does Austin Energy buy back solar power" |
+| 12 | EV Programs | "rebate for home EV charger" |
+| 13 | Scam Awareness | "someone called saying they'll cut my power today" |
+| 14 | Tree Trimming | "tree branches touching the power line in my yard" |
 
 **Transactional: scripted flow, not free text**
 
-| # | Intent | Flow ends with |
+| # | Intent group | Flow ends with |
 |---|---|---|
-| 13 | Report an outage | Outage map link + outage phone line |
-| 14 | Start, stop or transfer service | Steps + link to the utilities portal |
-| 15 | Dispute a bill | Steps + bill dispute page + offer of human handoff |
+| 15 | Report Outage | Outage reporting link, text code and outage phone line |
+| 16 | Check Outage Status | Outage map link. The bot never guesses a restoration time |
+| 17 | Start/Stop/Transfer Service | Steps and link to the utilities portal |
+| 18 | Bill Dispute | Steps, bill dispute page and offer of human handoff |
+
+**Safety critical**
+
+| # | Intent group | Behavior |
+|---|---|---|
+| 19 | Downed Power Lines | Skips everything else. Returns the emergency message and outage phone line first. Mentions of sparks or fire do the same |
 
 **Always on**
 
 - **Talk to a person:** handoff with a short conversation summary.
-- **Safety override:** any mention of a downed line, sparks or fire skips everything else and returns the emergency message and phone number first.
-
+- **Collections and Bill Dispute** always offer a human, because the customer may be stressed.
+- **Out of scope:** declined politely and pointed to the right place (see Section 4).
+  
 ## 4. Out of scope
 
 The bot says so politely and points to the right place:
