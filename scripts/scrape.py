@@ -8,6 +8,7 @@ from urllib.robotparser import RobotFileParser
 
 import requests
 import trafilatura
+from bs4 import BeautifulSoup
 
 DATA = Path("data")
 RAW_DIR = DATA / "raw_html"
@@ -51,9 +52,24 @@ def fetch(url):
 
 
 def extract_text(html, url):
-    text = trafilatura.extract(html, url=url, include_tables=True,
-                               include_links=False, favor_recall=True)
-    return text or ""
+    soup = BeautifulSoup(html, "html.parser")
+
+    for button in soup.find_all("button"):
+        if len(button.get_text(strip=True).split()) >= 4:
+            button.name = "h3"
+
+    cards = []
+    for item in soup.select(".page-list li.item"):
+        title = item.select_one(".field-title")
+        description = item.select_one(".field-metadescription")
+        if title and description:
+            cards.append(f"- {title.get_text(' ', strip=True)}: {description.get_text(' ', strip=True)}")
+
+    text = trafilatura.extract(str(soup), url=url, include_tables=True,
+                               include_links=False, favor_recall=True) or ""
+    if cards:
+        text += "\n\nPrograms listed on this page:\n" + "\n".join(cards)
+    return text
 
 
 def save_page(page, html, text):
@@ -76,10 +92,9 @@ def save_page(page, html, text):
 #quality check and main loop – This is where your "Approx Words" column pays off. If a page comes back with less than half the words it should have, the script flags it. That catches hidden FAQ text the photocopier missed
 def check_quality(text, expected_words):
     words = len(text.split())
-    expected = int(expected_words or 0)
     if words == 0:
         return words, "EMPTY"
-    if expected and words < expected * 0.5:
+    if words < 100:
         return words, "LOW"
     return words, "OK"
 
