@@ -24,14 +24,24 @@ def load_pages(csv_path):
 def allowed_by_robots(url, robots_cache):
     domain = urlparse(url).scheme + "://" + urlparse(url).netloc
     if domain not in robots_cache:
-        rp = RobotFileParser(domain + "/robots.txt")
+        rp = RobotFileParser()
         try:
-            rp.read()
-        except Exception:
-            rp = None
+            response = requests.get(domain + "/robots.txt", headers=HEADERS, timeout=20)
+            if response.status_code == 200:
+                rp.parse(response.text.splitlines())
+            elif 400 <= response.status_code < 500 and response.status_code not in (401, 403):
+                rp = "allow_all"
+            else:
+                rp = "disallow_all"
+        except requests.RequestException:
+            rp = "disallow_all"
         robots_cache[domain] = rp
     rp = robots_cache[domain]
-    return True if rp is None else rp.can_fetch(HEADERS["User-Agent"], url)
+    if rp == "allow_all":
+        return True
+    if rp == "disallow_all":
+        return False
+    return rp.can_fetch(HEADERS["User-Agent"], url)
 
 #download, clean and save. trafilatura is the photocopier that keeps only the article body. Each saved file gets a header with its URL, title and date. That header becomes your citation later, when the bot says "source: Outage FAQs"
 def fetch(url):
