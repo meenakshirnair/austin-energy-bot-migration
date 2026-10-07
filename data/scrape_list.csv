@@ -1,0 +1,48 @@
+page_id,url,page_title,source,approx_words,intent_groups,in_legacy_qa
+P01,https://austinenergy.com/outages/report-outages/report-outages,Report Outages,Austin Energy,300,Report Outage,Yes
+P02,https://austinenergy.com/outages/report-outages/Using-the-Outage-Map,Using the Outage Map,Austin Energy,1200,Check Outage Status,Yes
+P03,https://austinenergy.com/outages/report-outages/outage-alerts,Get Outage Alerts,Austin Energy,1200,Outage Alerts,Yes
+P04,https://austinenergy.com/residential/report-a-problem/report-a-problem,Report a Problem,Austin Energy,800,Downed Power Lines,Yes
+P05,https://austinenergy.com/rates/residential-rates/other-line-items-on-your-bill,Other Line Items on Your Bill,Austin Energy,350,Understand My Bill,Yes
+P06,https://austinenergy.com/energy-efficiency/monitor-usage/residential,Monitor Your Home Energy Usage,Austin Energy,150,Understand My Bill,Yes
+P07,https://austinenergy.com/residential/city-of-austin-utilities/Payment-Options,Payment Options,Austin Energy,2800,Payment Options,Yes
+P08,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/payment/payment-arrangement,Payment Arrangement,COA Utilities,800,Payment Arrangement,Yes
+P09,https://www1.coautilities.com/wps/wcm/connect/occ/coa/util/support/payment/payment-arrangement-faq,Payment Arrangement FAQs,COA Utilities,800,Payment Arrangement,Yes
+P10,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/payment/payment-collection-faqs,Collection FAQs,COA Utilities,1200,Collections,Yes
+P11,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/billing/bill-disputes,Bill Disputes,COA Utilities,800,Bill Dispute,Yes
+P12,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/customer-assistance/cap-overview,Customer Assistance Program (CAP) Overview,COA Utilities,250,CAP,Yes
+P13,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/customer-assistance/utility-bill-discounts,Utility Bill Discounts,COA Utilities,1200,CAP,Yes
+P14,https://austinenergy.com/energy-efficiency/rebates-incentives/residential/home-improvements/weatherization,Weatherization Assistance,Austin Energy,2800,Weatherization,Yes
+P15,https://austinenergy.com/energy-efficiency/rebates-incentives/residential,Residential Rebates,Austin Energy,150,Rebates,Yes
+P16,https://austinenergy.com/energy-efficiency/rebates-incentives/residential/cooling-heating/ac,Air Conditioning,Austin Energy,1200,Rebates,Yes
+P17,https://austinenergy.com/energy-efficiency/rebates-incentives/residential/home-improvements/home-energy-savings,Home Energy Savings,Austin Energy,2500,Rebates,Yes
+P18,https://austinenergy.com/energy-efficiency/rebates-incentives/residential/cooling-heating/pp-thermostat,Power Partner Thermostat,Austin Energy,3500,Rebates,Yes
+P19,https://austinenergy.com/energy-efficiency/energy-saving-tips/residential,Tips for Residential Customers,Austin Energy,2500,Rebates,No
+P20,https://austinenergy.com/green-power/greenchoice,It's Easy to Choose Green Power,Austin Energy,1200,GreenChoice,Yes
+P21,https://austinenergy.com/green-power/greenchoice/faqs,GreenChoice FAQs,Austin Energy,2800,GreenChoice,Yes
+P22,https://austinenergy.com/green-power/solar-solutions/for-your-home,For Your Home (Solar),Austin Energy,3500,Home Solar,Yes
+P23,https://austinenergy.com/green-power/solar-solutions/value-of-solar-rate/FAQs,Value of Solar Rate - Frequently Asked Questions,Austin Energy,2800,Home Solar,Yes
+P24,https://austinenergy.com/green-power/plug-in-austin/home-charging,Home EV Charger Rebate,Austin Energy,2500,EV Programs,Yes
+P25,https://austinenergy.com/green-power/plug-in-austin/EVerything-Charging,EVerything Charging,Austin Energy,2500,EV Programs,Yes
+P26,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/utility-service/start-stop-transfer,"Start, Stop, & Transfer Service",COA Utilities,700,Start/Stop/Transfer Service,Yes
+P27,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/utility-service/fees-res,Residential Fees & Deposits,COA Utilities,2500,Start/Stop/Transfer Service,Yes
+P28,https://austinenergy.com/residential/residential-services/tree-trimming,Tree Trimming,Austin Energy,2800,Tree Trimming,Yes
+P29,https://austinenergy.com/residential/report-a-problem/report-telephone-scams,Recognize and Report Scams,Austin Energy,1200,Scam Awareness,Yes
+P30,https://austinenergy.com/about/Electrical-Safety/Safety-at-home,Safety at Home,Austin Energy,2100,Safety,Yes
+P31,https://austinenergy.com/about/Electrical-Safety/Weather-Safety,Weather Safety,Austin Energy,800,Safety,Yes
+P32,https://austinenergy.com/residential/residential-services/lighting-services,Lighting Services,Austin Energy,800,Safety,No
+P33,https://austinenergy.com/green-power/About-Renewable-Energy/About-Renewable-Energy,About Renewable Energy Solutions,Austin Energy,1200,GreenChoice,No
+P34,https://austinenergy.com/outages/report-outages/what-to-do-during-an-outage,What to Do During an Outage,Austin Energy,2500,Safety,Yes
+P35,https://austinenergy.com/outages/current-conditions/FAQs,Outage FAQs,Austin Energy,2100,Safety,Yes
+P36,https://austinenergy.com/outages/plan-ahead/How-We-Restore-Power,How We Restore Power,Austin Energy,1200,Check Outage Status,No
+P37,https://austinenergy.com/rates/residential-rates/residential-electric-rates-and-line-items,Residential Rates,Austin Energy,2500,Understand My Bill,Yes
+P38,https://coautilities.com/wps/wcm/connect/occ/coa/util/support/payment/quick-payment,Quick Payment,COA Utilities,800,Payment Options,Yes
+P39,https://austinenergy.com/residential/residential-services/tree-trimming/faqs,Tree Trimming FAQs,Austin Energy,4500,Tree Trimming,Yes
+P40,https://austinenergy.com/residential/residential-services/smart-meters,Smart Meters,Austin Energy,650,Understand My Bill,No
+P41,https://austinenergy.com/energy-efficiency/rebates-incentives/residential/appliances-equipment,Appliances and Equipment,Austin Energy,175,Rebates,No
+P42,https://austinenergy.com/residential/report-a-problem/tips-to-avoid-rebate-scams,Tips to Avoid Rebate Scams,Austin Energy,800,Scam Awareness,No
+P43,https://austinenergy.com/green-power/plug-in-austin/power-partner-ev/FAQs,Power Partner EV FAQs,Austin Energy,2800,EV Programs,No
+P44,https://austinenergy.com/residential/report-a-problem/austin-energy-vs-customer-equipment,Not All Equipment Belongs to Austin Energy,Austin Energy,1200,Downed Power Lines,No
+P45,https://austinenergy.com/outages/plan-ahead/Outage-Safety,Plan to Stay Safe (Outage Safety),Austin Energy,1200,Safety,Yes
+P46,https://www.austintexas.gov/services/view-and-report-power-outages,View and report power outages,City of Austin,200,Report Outage,No
+P47,https://www.austintexas.gov/services/pay-utility-bill,Pay a utility bill,City of Austin,375,Payment Options,No
