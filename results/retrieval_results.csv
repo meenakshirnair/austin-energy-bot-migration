@@ -1,0 +1,376 @@
+mode,query_id,query_type,intent_group,query,gold_pages,retrieved_pages,first_correct_rank
+keyword,T001,Transactional,Report Outage,lights are out at my house how do i tell you,P01;P02;P03;P34;P35,P30;P34;P30;P03;P34,2
+keyword,T002,Transactional,Report Outage,need to report a blackout,P01;P02;P03;P34;P35,P04;P46;P01;P47;P29,3
+keyword,T003,Transactional,Report Outage,our whole block lost power,P01;P02;P03;P34;P35,P20;P15;P02;P39;P39,3
+keyword,T004,Transactional,Report Outage,can you send someone my power went out,P01;P02;P03;P34;P35,P18;P04;P36;P03;P03,4
+keyword,T005,Transactional,Report Outage,electricity is out where do i report it,P01;P02;P03;P34;P35,P01;P46;P04;P34;P10,1
+keyword,T006,Clean paraphrase,Report Outage,what's the fastest way to let austin energy know my power is off,P01;P02;P03;P34;P35,P44;P44;P34;P44;P44,3
+keyword,T007,Ambiguous,Report Outage,nothing is working,P01;P02;P03;P34;P35,P17;P39;P39;P02;P16,4
+keyword,T008,Clean paraphrase,Report Outage,who do i contact when the lights go out,P01;P02;P03;P34;P35,P03;P34;P03;P34;P34,1
+keyword,T009,Typos / slang,Report Outage,pwr out cant get lights bak on,P01;P02;P03;P34;P35,P03;P03;P03;P03;P30,1
+keyword,T010,Clean paraphrase,Report Outage,my neighborhood has no electricity,P01;P02;P03;P34;P35,P34;P35;P40;P02;P27,1
+keyword,T011,Transactional,Check Outage Status,check outage status,P02;P36,P02;P02;P02;P02;P01,1
+keyword,T012,Transactional,Check Outage Status,is there a way to see when power will be back,P02;P36,P34;P46;P04;P35;P47,
+keyword,T013,Transactional,Check Outage Status,show me outage map,P02;P36,P02;P02;P02;P02;P02,1
+keyword,T014,Spanish,Check Outage Status,quiero saber cuándo regresa la luz,P02;P36,P11;P33,
+keyword,T015,Clean paraphrase,Check Outage Status,how long until service is restored,P02;P36,P36;P10;P36;P26;P36,1
+keyword,T016,Ambiguous,Outage Alerts,can i get updates,P03,P03;P03;P01;P46;P02,1
+keyword,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P31;P35;P45,P03;P36;P03;P03;P02,
+keyword,T018,Typos / slang,Outage Alerts,how i get txts when power out,P35;P31;P45,P36;P03;P03;P36;P03,
+keyword,T019,Clean paraphrase,Outage Alerts,send outage notifications to my phone,P03,P34;P35;P03;P03;P03,3
+keyword,T020,Spanish,Outage Alerts,cómo recibo alertas de apagones,P03;P01,P14;P14;P11;P22;P33,
+keyword,T021,Clean paraphrase,Downed Power Lines,there's a power line hanging in my yard,P04;P35,P04;P44;P31;P31;P39,1
+keyword,T022,Ambiguous,Downed Power Lines,something fell near the pole,P04;P35,P39;P44;P44;P39;P02,
+keyword,T023,Clean paraphrase,Downed Power Lines,a wire is on the ground outside,P04;P35,P44;P30;P44;P30;P39,
+keyword,T024,Typos / slang,Downed Power Lines,power line dwn by road,P04;P35,P39;P44;P44;P04;P36,4
+keyword,T025,Clean paraphrase,Downed Power Lines,i think a utility line snapped during the storm,P04;P35,P13;P13;P34;P04;P47,4
+keyword,T026,Spanish,Understand My Bill,por qué mi factura es tan alta,P06;P37,P44;P44;P03,
+keyword,T027,Clean paraphrase,Understand My Bill,what is the power supply adjustment charge,P37,P37;P37;P20;P21;P43,1
+keyword,T028,Ambiguous,Understand My Bill,my bill looks wrong,P11;P06;P05,P05;P05;P11;P11;P29,1
+keyword,T029,Clean paraphrase,Understand My Bill,explain these charges on my bill,P37;P05,P05;P05;P37;P37;P37,1
+keyword,T030,Typos / slang,Understand My Bill,y bill way higher this month,P06;P37,P19;P37;P06;P11;P11,2
+keyword,T031,Clean paraphrase,Understand My Bill,what am i paying for besides electricity,P05;P37,P22;P10;P22;P10;P09,
+keyword,T032,Spanish,Understand My Bill,no entiendo los cargos en mi factura,P37;P05,P22;P33;P21;P14;P14,
+keyword,T033,Clean paraphrase,Understand My Bill,where can i see a breakdown of my bill,P06,P06;P47;P05;P11;P11,1
+keyword,T034,Ambiguous,Understand My Bill,why am i being charged so much,P06;P37;P11,P39;P39;P21;P02;P09,
+keyword,T035,Clean paraphrase,Understand My Bill,what is the monthly customer charge,P37,P12;P09;P21;P09;P22,
+keyword,T036,Typos / slang,Payment Options,how i pay bill online,P38;P07,P47;P11;P11;P07;P09,4
+keyword,T037,Clean paraphrase,Payment Options,what ways can i pay my utility bill,P07,P47;P11;P13;P11;P13,
+keyword,T038,Spanish,Payment Options,puedo pagar mi factura por internet,P38;P07,P03;P43,
+keyword,T039,Clean paraphrase,Payment Options,can i pay over the phone,P38;P07,P47;P10;P29;P07;P02,4
+keyword,T040,Ambiguous,Payment Options,i need to make a payment,P07;P08,P47;P38;P38;P07;P07,4
+keyword,T041,Clean paraphrase,Payment Arrangement,can i split my bill into payments,P08;P09,P11;P37;P11;P47;P06,
+keyword,T042,Typos / slang,Payment Arrangement,cant pay whole bill rn,P08;P09,P47;P11;P11;P05;P15,
+keyword,T043,Clean paraphrase,Payment Arrangement,do you offer payment plans,P08;P09,P07;P09;P08;P07;P38,2
+keyword,T044,Spanish,Payment Arrangement,necesito más tiempo para pagar mi factura,P08;P09,P22;P33;P03,
+keyword,T045,Clean paraphrase,Payment Arrangement,can i request a payment plan online,P08,P08;P47;P09;P38;P07,1
+keyword,T046,Ambiguous,Collections,i got a letter in the mail,P10;P29,P47;P22;P10;P13;P22,3
+keyword,T047,Clean paraphrase,Collections,will they cut off my power if im a week late paying,P10;P09,P29;P47;P39;P04;P18,
+keyword,T048,Typos / slang,Collections,got disconnect notice wat now,P10,P10;P10;P29;P13;P17,1
+keyword,T049,Clean paraphrase,Collections,how do i keep my electricity from being shut off,P10;P08,P34;P19;P34;P31;P22,
+keyword,T050,Spanish,Collections,recibí un aviso de desconexión,P10,P03;P14;P14;P11;P22,
+keyword,T051,Transactional,Bill Dispute,i think i was billed incorrectly,P11,P25;P45;P07;P22;P47,
+keyword,T052,Transactional,Bill Dispute,how do i dispute a charge,P11,P11;P11;P36;P36;P36,1
+keyword,T053,Clean paraphrase,Bill Dispute,someone needs to review my bill,P11,P11;P10;P10;P05;P05,1
+keyword,T054,Ambiguous,Bill Dispute,this amount doesn't seem right,P11;P06,P22;P17;P02;P17;P23,
+keyword,T055,Clean paraphrase,Bill Dispute,how do i contest my electric bill,P11,P11;P05;P05;P13;P11,1
+keyword,T056,Typos / slang,CAP,any hlp paying utilty bill,P12;P13,P11;P11;P47;P05;P38,
+keyword,T057,Clean paraphrase,CAP,i'm struggling to pay my electric bill,P12,P47;P05;P11;P11;P05,
+keyword,T058,Spanish,CAP,hay programas de ayuda para personas de bajos ingresos,P12;P13,P14;P22;P14;P33;P03,
+keyword,T059,Clean paraphrase,CAP,do low income customers qualify for help,P13,P13;P19;P12;P19;P19,1
+keyword,T060,Ambiguous,CAP,can i get a discount,P13;P15;P20,P47;P13;P13;P13;P13,2
+keyword,T061,Clean paraphrase,CAP,what documents do i need for assistance,P13,P14;P34;P13;P34;P13,3
+keyword,T062,Typos / slang,CAP,how do i aply 4 bill discount,P13,P13;P13;P13;P13;P47,1
+keyword,T063,Clean paraphrase,CAP,i need financial help,P12,P47;P10;P12;P10;P11,3
+keyword,T064,Spanish,CAP,ayuda para pagar la electricidad,P12;P13,P11;P22;P03;P33;P33,
+keyword,T065,Clean paraphrase,CAP,what programs exist if i can't afford my bill,P12,P37;P11;P05;P13;P11,
+keyword,T066,Ambiguous,Weatherization,my house is always hot,P14;P17;P19,P19;P31;P30;P42;P44,1
+keyword,T067,Clean paraphrase,Weatherization,can someone help make my home more energy efficient,P14;P17,P22;P22;P15;P17;P19,4
+keyword,T068,Typos / slang,Weatherization,do i qualfy for free home repairs,P14,P22;P22;P22;P22;P34,
+keyword,T069,Clean paraphrase,Weatherization,how do i sign up for weatherization,P14,P14;P14;P14;P36;P36,1
+keyword,T070,Spanish,Weatherization,aislamiento gratis para mi casa,P14,P22;P33;P03,
+keyword,T071,Clean paraphrase,Rebates,what rebates are available right now,P15,P17;P15;P15;P22;P17,2
+keyword,T072,Ambiguous,Rebates,rebate for my unit,P15;P16,P16;P16;P17;P24;P24,1
+keyword,T073,Clean paraphrase,Rebates,what incentives can homeowners get,P15;P17,P18;P18;P33;P22;P03,
+keyword,T074,Typos / slang,Rebates,any rebaets for my hous,P15,P22;P37;P19;P19;P22,
+keyword,T075,Clean paraphrase,Rebates,is there a rebate for a heat pump water heater,P15,P41;P15;P19;P19;P19,2
+keyword,T076,Spanish,Rebates,hay reembolso por un aire acondicionado nuevo,P16,P03,
+keyword,T077,Clean paraphrase,Rebates,can i get money back for replacing my hvac,P16,P19;P19;P03;P22;P03,
+keyword,T078,Ambiguous,Rebates,my ac is old,P16;P17,P17;P16;P19;P16;P23,1
+keyword,T079,Clean paraphrase,Rebates,rebate for attic insulation,P17,P17;P14;P17;P24;P24,1
+keyword,T080,Typos / slang,Rebates,insulashun rebate??,P17,P24;P24;P24;P24;P42,
+keyword,T081,Clean paraphrase,GreenChoice,can my house run on wind and solar,P20;P21,P22;P22;P22;P21;P44,4
+keyword,T082,Spanish,GreenChoice,cómo me inscribo en energía renovable,P20;P21,P14;P22;P33;P14;P14,
+keyword,T083,Clean paraphrase,GreenChoice,how much extra does green power cost,P20;P21,P21;P20;P20;P22;P21,1
+keyword,T084,Ambiguous,GreenChoice,i want clean energy,P20;P22,P19;P33;P33;P21;P20,5
+keyword,T085,Clean paraphrase,GreenChoice,is there a penalty if i stop greenchoice,P20;P21,P21;P21;P21;P21;P20,1
+keyword,T086,Typos / slang,Home Solar,do yall buy back solr power,P22;P23,P34;P43;P34;P18;P34,
+keyword,T087,Clean paraphrase,Home Solar,how much is the rebate for putting panels on my roof,P22,P22;P22;P22;P22;P22,1
+keyword,T088,Spanish,Home Solar,cuánto me pagan por la energía solar que produzco,P22;P23,P22;P22;P22;P22;P33,1
+keyword,T089,Clean paraphrase,Home Solar,what happens to solar credits i dont use,P22;P23,P23;P22;P22;P23;P22,1
+keyword,T090,Ambiguous,Home Solar,solar,P22;P23;P20,P22;P22;P22;P22;P22,1
+keyword,T091,Clean paraphrase,EV Programs,is there a rebate for a home ev charger,P24,P24;P24;P24;P24;P43,1
+keyword,T092,Typos / slang,EV Programs,ev chargr rebate how much,P24,P24;P24;P24;P24;P43,1
+keyword,T093,Clean paraphrase,EV Programs,whats the cheapest time to charge my car,P25,P43;P25;P02;P25;P34,2
+keyword,T094,Spanish,EV Programs,dónde puedo cargar mi carro eléctrico en austin,P25,P14;P22;P33;P14;P14,
+keyword,T095,Clean paraphrase,EV Programs,what is power partner ev,P43,P43;P43;P43;P43;P24,1
+keyword,T096,Transactional,Start/Stop/Transfer Service,im moving out and need to shut off my electricity,P26,P29;P22;P34;P45;P45,
+keyword,T097,Transactional,Start/Stop/Transfer Service,start electric service at my new apartment,P26;P27,P26;P26;P26;P27;P27,1
+keyword,T098,Transactional,Start/Stop/Transfer Service,transfer my utilities to my new address next week,P26,P26;P26;P26;P04;P40,1
+keyword,T099,Transactional,Start/Stop/Transfer Service,stop service at my old place,P26,P26;P26;P26;P16;P30,1
+keyword,T100,Transactional,Start/Stop/Transfer Service,i need to put the power in my name,P26;P27,P43;P43;P18;P18;P02,
+keyword,T101,Ambiguous,Start/Stop/Transfer Service,im moving,P26,P22,
+keyword,T102,Clean paraphrase,Start/Stop/Transfer Service,how do i transfer utilities,P26,P26;P26;P26;P29;P34,1
+keyword,T103,Typos / slang,Start/Stop/Transfer Service,movin houses need lights on at new place,P26,P30;P30;P32;P34;P45,
+keyword,T104,Clean paraphrase,Start/Stop/Transfer Service,do i have to pay a deposit to start service,P27,P26;P26;P27;P26;P27,3
+keyword,T105,Spanish,Start/Stop/Transfer Service,transferir mi servicio,P26,,
+keyword,T106,Clean paraphrase,Scam Awareness,someone called saying theyll cut my power in an hour unless i pay,P29;P10,P04;P47;P34;P34;P29,5
+keyword,T107,Ambiguous,Scam Awareness,i got a weird call about my account,P29,P04;P26;P33;P47;P01,
+keyword,T108,Clean paraphrase,Scam Awareness,they want me to pay my bill with a gift card is that real,P29,P47;P29;P29;P29;P38,2
+keyword,T109,Clean paraphrase,Scam Awareness,a guy at my door says hes from austin energy selling solar panels,P29;P04,P04;P22;P22;P22;P22,1
+keyword,T110,Clean paraphrase,Scam Awareness,how do i know if a rebate offer is legit,P42,P42;P34;P22;P04;P24,1
+keyword,T111,Ambiguous,Tree Trimming,tree branches are touching power lines,P39;P04,P39;P44;P28;P28;P39,1
+keyword,T112,Clean paraphrase,Tree Trimming,can i request tree trimming,P39,P39;P28;P39;P39;P39,1
+keyword,T113,Clean paraphrase,Tree Trimming,who trims trees near utility lines,P28;P39,P44;P28;P39;P39;P39,2
+keyword,T114,Clean paraphrase,Tree Trimming,dangerous tree near electrical wires,P39,P28;P44;P39;P39;P28,3
+keyword,T115,Ambiguous,Tree Trimming,my tree is a problem,P39,P04;P39;P28;P28;P28,2
+keyword,T116,Clean paraphrase,Safety,what should i do after a storm outage,P34;P45,P34;P34;P35;P04;P03,1
+keyword,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35,P45;P45;P36;P45;P44,
+keyword,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31,P04;P44;P39;P02;P36,
+keyword,T119,Ambiguous,Safety,what should i do its freezing,P31;P45,P34;P34;P34;P34;P34,
+keyword,T120,Clean paraphrase,Safety,how long will my fridge food stay good without power,P45,P45;P45;P36;P36;P34,1
+keyword,T121,Clean paraphrase,Safety,can i run a generator in my garage,P45,P45;P34;P21;P30;P31,1
+keyword,T122,Clean paraphrase,Safety,can i plug the fridge into a power strip,P30,P30;P31;P43;P43;P04,1
+keyword,T123,Ambiguous,Safety,my outlet sparked,P30,P30;P30;P39;P25;P30,1
+keyword,T124,Clean paraphrase,Safety,its 105 out where can i go to stay cool,P31,P45;P45;P19;P31;P18,4
+keyword,T125,Clean paraphrase,Safety,do i need special plugs near the sink,P30,P31;P30;P21;P34;P34,2
+vector,T001,Transactional,Report Outage,lights are out at my house how do i tell you,P01;P02;P03;P34;P35,P03;P01;P03;P03;P34,1
+vector,T002,Transactional,Report Outage,need to report a blackout,P01;P02;P03;P34;P35,P04;P01;P03;P46;P02,2
+vector,T003,Transactional,Report Outage,our whole block lost power,P01;P02;P03;P34;P35,P36;P02;P34;P35;P36,2
+vector,T004,Transactional,Report Outage,can you send someone my power went out,P01;P02;P03;P34;P35,P03;P03;P02;P03;P35,1
+vector,T005,Transactional,Report Outage,electricity is out where do i report it,P01;P02;P03;P34;P35,P01;P46;P04;P03;P02,1
+vector,T006,Clean paraphrase,Report Outage,what's the fastest way to let austin energy know my power is off,P01;P02;P03;P34;P35,P01;P46;P03;P03;P35,1
+vector,T007,Ambiguous,Report Outage,nothing is working,P01;P02;P03;P34;P35,P02;P34;P35;P02;P36,1
+vector,T008,Clean paraphrase,Report Outage,who do i contact when the lights go out,P01;P02;P03;P34;P35,P35;P03;P34;P34;P34,1
+vector,T009,Typos / slang,Report Outage,pwr out cant get lights bak on,P01;P02;P03;P34;P35,P34;P36;P34;P34;P35,1
+vector,T010,Clean paraphrase,Report Outage,my neighborhood has no electricity,P01;P02;P03;P34;P35,P34;P35;P02;P34;P34,1
+vector,T011,Transactional,Check Outage Status,check outage status,P02;P36,P02;P01;P03;P46;P02,1
+vector,T012,Transactional,Check Outage Status,is there a way to see when power will be back,P02;P36,P36;P36;P34;P36;P34,1
+vector,T013,Transactional,Check Outage Status,show me outage map,P02;P36,P02;P02;P02;P02;P02,1
+vector,T014,Spanish,Check Outage Status,quiero saber cuándo regresa la luz,P02;P36,P03;P32;P36;P34;P35,3
+vector,T015,Clean paraphrase,Check Outage Status,how long until service is restored,P02;P36,P36;P36;P36;P34;P35,1
+vector,T016,Ambiguous,Outage Alerts,can i get updates,P03,P03;P03;P01;P03;P02,1
+vector,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P31;P35;P45,P03;P03;P03;P01;P03,
+vector,T018,Typos / slang,Outage Alerts,how i get txts when power out,P35;P31;P45,P03;P03;P03;P01;P34,
+vector,T019,Clean paraphrase,Outage Alerts,send outage notifications to my phone,P03,P03;P03;P03;P01;P03,1
+vector,T020,Spanish,Outage Alerts,cómo recibo alertas de apagones,P03;P01,P03;P03;P03;P01;P46,1
+vector,T021,Clean paraphrase,Downed Power Lines,there's a power line hanging in my yard,P04;P35,P44;P39;P39;P39;P44,
+vector,T022,Ambiguous,Downed Power Lines,something fell near the pole,P04;P35,P44;P44;P30;P45;P30,
+vector,T023,Clean paraphrase,Downed Power Lines,a wire is on the ground outside,P04;P35,P44;P30;P44;P44;P39,
+vector,T024,Typos / slang,Downed Power Lines,power line dwn by road,P04;P35,P45;P44;P02;P35;P45,4
+vector,T025,Clean paraphrase,Downed Power Lines,i think a utility line snapped during the storm,P04;P35,P35;P39;P34;P45;P35,1
+vector,T026,Spanish,Understand My Bill,por qué mi factura es tan alta,P06;P37,P11;P13;P05;P37;P37,4
+vector,T027,Clean paraphrase,Understand My Bill,what is the power supply adjustment charge,P37,P37;P43;P43;P24;P24,1
+vector,T028,Ambiguous,Understand My Bill,my bill looks wrong,P11;P06;P05,P11;P29;P11;P05;P05,1
+vector,T029,Clean paraphrase,Understand My Bill,explain these charges on my bill,P37;P05,P05;P37;P05;P11;P37,1
+vector,T030,Typos / slang,Understand My Bill,y bill way higher this month,P06;P37,P13;P13;P05;P13;P47,
+vector,T031,Clean paraphrase,Understand My Bill,what am i paying for besides electricity,P05;P37,P37;P05;P37;P37;P05,1
+vector,T032,Spanish,Understand My Bill,no entiendo los cargos en mi factura,P37;P05,P05;P37;P09;P11;P05,1
+vector,T033,Clean paraphrase,Understand My Bill,where can i see a breakdown of my bill,P06,P05;P05;P06;P09;P11,3
+vector,T034,Ambiguous,Understand My Bill,why am i being charged so much,P06;P37;P11,P37;P05;P37;P25;P20,1
+vector,T035,Clean paraphrase,Understand My Bill,what is the monthly customer charge,P37,P37;P09;P05;P37;P20,1
+vector,T036,Typos / slang,Payment Options,how i pay bill online,P38;P07,P47;P07;P07;P38;P07,2
+vector,T037,Clean paraphrase,Payment Options,what ways can i pay my utility bill,P07,P47;P07;P07;P09;P26,2
+vector,T038,Spanish,Payment Options,puedo pagar mi factura por internet,P38;P07,P47;P09;P07;P07;P38,3
+vector,T039,Clean paraphrase,Payment Options,can i pay over the phone,P38;P07,P29;P09;P07;P07;P09,3
+vector,T040,Ambiguous,Payment Options,i need to make a payment,P07;P08,P09;P38;P07;P47;P38,3
+vector,T041,Clean paraphrase,Payment Arrangement,can i split my bill into payments,P08;P09,P09;P09;P08;P08;P09,1
+vector,T042,Typos / slang,Payment Arrangement,cant pay whole bill rn,P08;P09,P47;P07;P09;P08;P08,3
+vector,T043,Clean paraphrase,Payment Arrangement,do you offer payment plans,P08;P09,P09;P09;P08;P09;P08,1
+vector,T044,Spanish,Payment Arrangement,necesito más tiempo para pagar mi factura,P08;P09,P09;P09;P08;P09;P08,1
+vector,T045,Clean paraphrase,Payment Arrangement,can i request a payment plan online,P08,P09;P09;P08;P08;P08,3
+vector,T046,Ambiguous,Collections,i got a letter in the mail,P10;P29,P29;P13;P22;P10;P14,1
+vector,T047,Clean paraphrase,Collections,will they cut off my power if im a week late paying,P10;P09,P10;P09;P09;P08;P29,1
+vector,T048,Typos / slang,Collections,got disconnect notice wat now,P10,P10;P10;P10;P29;P03,1
+vector,T049,Clean paraphrase,Collections,how do i keep my electricity from being shut off,P10;P08,P45;P10;P34;P45;P19,2
+vector,T050,Spanish,Collections,recibí un aviso de desconexión,P10,P03;P10;P10;P03;P10,2
+vector,T051,Transactional,Bill Dispute,i think i was billed incorrectly,P11,P11;P11;P29;P09;P05,1
+vector,T052,Transactional,Bill Dispute,how do i dispute a charge,P11,P11;P11;P29;P29;P27,1
+vector,T053,Clean paraphrase,Bill Dispute,someone needs to review my bill,P11,P11;P11;P29;P10;P13,1
+vector,T054,Ambiguous,Bill Dispute,this amount doesn't seem right,P11;P06,P23;P27;P29;P29;P38,
+vector,T055,Clean paraphrase,Bill Dispute,how do i contest my electric bill,P11,P11;P11;P29;P10;P29,1
+vector,T056,Typos / slang,CAP,any hlp paying utilty bill,P12;P13,P47;P13;P07;P08;P09,2
+vector,T057,Clean paraphrase,CAP,i'm struggling to pay my electric bill,P12,P47;P07;P09;P10;P09,
+vector,T058,Spanish,CAP,hay programas de ayuda para personas de bajos ingresos,P12;P13,P13;P14;P12;P13;P13,1
+vector,T059,Clean paraphrase,CAP,do low income customers qualify for help,P13,P13;P13;P13;P12;P14,1
+vector,T060,Ambiguous,CAP,can i get a discount,P13;P15;P20,P13;P13;P13;P09;P13,1
+vector,T061,Clean paraphrase,CAP,what documents do i need for assistance,P13,P13;P14;P13;P13;P14,1
+vector,T062,Typos / slang,CAP,how do i aply 4 bill discount,P13,P13;P13;P13;P09;P13,1
+vector,T063,Clean paraphrase,CAP,i need financial help,P12,P09;P12;P07;P07;P14,2
+vector,T064,Spanish,CAP,ayuda para pagar la electricidad,P12;P13,P47;P13;P09;P10;P07,2
+vector,T065,Clean paraphrase,CAP,what programs exist if i can't afford my bill,P12,P13;P13;P12;P13;P09,3
+vector,T066,Ambiguous,Weatherization,my house is always hot,P14;P17;P19,P19;P19;P19;P19;P15,1
+vector,T067,Clean paraphrase,Weatherization,can someone help make my home more energy efficient,P14;P17,P19;P19;P17;P19;P17,3
+vector,T068,Typos / slang,Weatherization,do i qualfy for free home repairs,P14,P17;P17;P14;P14;P14,3
+vector,T069,Clean paraphrase,Weatherization,how do i sign up for weatherization,P14,P14;P14;P14;P19;P18,1
+vector,T070,Spanish,Weatherization,aislamiento gratis para mi casa,P14,P27;P14;P14;P14;P27,2
+vector,T071,Clean paraphrase,Rebates,what rebates are available right now,P15,P15;P15;P24;P16;P18,1
+vector,T072,Ambiguous,Rebates,rebate for my unit,P15;P16,P16;P15;P15;P17;P17,1
+vector,T073,Clean paraphrase,Rebates,what incentives can homeowners get,P15;P17,P19;P18;P15;P15;P17,3
+vector,T074,Typos / slang,Rebates,any rebaets for my hous,P15,P15;P15;P19;P17;P22,1
+vector,T075,Clean paraphrase,Rebates,is there a rebate for a heat pump water heater,P15,P15;P16;P16;P41;P17,1
+vector,T076,Spanish,Rebates,hay reembolso por un aire acondicionado nuevo,P16,P16;P16;P16;P16;P17,1
+vector,T077,Clean paraphrase,Rebates,can i get money back for replacing my hvac,P16,P17;P17;P17;P16;P16,4
+vector,T078,Ambiguous,Rebates,my ac is old,P16;P17,P16;P16;P16;P16;P16,1
+vector,T079,Clean paraphrase,Rebates,rebate for attic insulation,P17,P17;P15;P17;P16;P15,1
+vector,T080,Typos / slang,Rebates,insulashun rebate??,P17,P15;P15;P22;P22;P22,
+vector,T081,Clean paraphrase,GreenChoice,can my house run on wind and solar,P20;P21,P22;P22;P22;P22;P22,
+vector,T082,Spanish,GreenChoice,cómo me inscribo en energía renovable,P20;P21,P33;P22;P20;P37;P33,3
+vector,T083,Clean paraphrase,GreenChoice,how much extra does green power cost,P20;P21,P20;P21;P21;P20;P37,1
+vector,T084,Ambiguous,GreenChoice,i want clean energy,P20;P22,P37;P33;P21;P21;P20,5
+vector,T085,Clean paraphrase,GreenChoice,is there a penalty if i stop greenchoice,P20;P21,P21;P20;P21;P20;P21,1
+vector,T086,Typos / slang,Home Solar,do yall buy back solr power,P22;P23,P22;P33;P23;P22;P22,1
+vector,T087,Clean paraphrase,Home Solar,how much is the rebate for putting panels on my roof,P22,P15;P22;P22;P22;P22,2
+vector,T088,Spanish,Home Solar,cuánto me pagan por la energía solar que produzco,P22;P23,P22;P22;P22;P23;P22,1
+vector,T089,Clean paraphrase,Home Solar,what happens to solar credits i dont use,P22;P23,P23;P23;P23;P22;P22,1
+vector,T090,Ambiguous,Home Solar,solar,P22;P23;P20,P22;P22;P33;P22;P22,1
+vector,T091,Clean paraphrase,EV Programs,is there a rebate for a home ev charger,P24,P24;P24;P24;P24;P15,1
+vector,T092,Typos / slang,EV Programs,ev chargr rebate how much,P24,P24;P24;P24;P24;P25,1
+vector,T093,Clean paraphrase,EV Programs,whats the cheapest time to charge my car,P25,P25;P25;P25;P24;P24,1
+vector,T094,Spanish,EV Programs,dónde puedo cargar mi carro eléctrico en austin,P25,P25;P25;P24;P25;P24,1
+vector,T095,Clean paraphrase,EV Programs,what is power partner ev,P43,P43;P43;P43;P18;P43,1
+vector,T096,Transactional,Start/Stop/Transfer Service,im moving out and need to shut off my electricity,P26,P10;P34;P03;P03;P45,
+vector,T097,Transactional,Start/Stop/Transfer Service,start electric service at my new apartment,P26;P27,P26;P04;P27;P44;P10,1
+vector,T098,Transactional,Start/Stop/Transfer Service,transfer my utilities to my new address next week,P26,P26;P10;P26;P27;P26,1
+vector,T099,Transactional,Start/Stop/Transfer Service,stop service at my old place,P26,P27;P27;P10;P10;P26,5
+vector,T100,Transactional,Start/Stop/Transfer Service,i need to put the power in my name,P26;P27,P03;P04;P43;P03;P18,
+vector,T101,Ambiguous,Start/Stop/Transfer Service,im moving,P26,P27;P19;P10;P19;P16,
+vector,T102,Clean paraphrase,Start/Stop/Transfer Service,how do i transfer utilities,P26,P26;P26;P26;P47;P10,1
+vector,T103,Typos / slang,Start/Stop/Transfer Service,movin houses need lights on at new place,P26,P32;P22;P19;P22;P19,
+vector,T104,Clean paraphrase,Start/Stop/Transfer Service,do i have to pay a deposit to start service,P27,P27;P27;P27;P27;P27,1
+vector,T105,Spanish,Start/Stop/Transfer Service,transferir mi servicio,P26,P26;P26;P03;P27;P26,1
+vector,T106,Clean paraphrase,Scam Awareness,someone called saying theyll cut my power in an hour unless i pay,P29;P10,P29;P29;P29;P10;P04,1
+vector,T107,Ambiguous,Scam Awareness,i got a weird call about my account,P29,P29;P29;P29;P04;P10,1
+vector,T108,Clean paraphrase,Scam Awareness,they want me to pay my bill with a gift card is that real,P29,P29;P29;P07;P29;P07,1
+vector,T109,Clean paraphrase,Scam Awareness,a guy at my door says hes from austin energy selling solar panels,P29;P04,P22;P42;P33;P29;P29,4
+vector,T110,Clean paraphrase,Scam Awareness,how do i know if a rebate offer is legit,P42,P42;P42;P22;P15;P24,1
+vector,T111,Ambiguous,Tree Trimming,tree branches are touching power lines,P39;P04,P39;P39;P28;P39;P39,1
+vector,T112,Clean paraphrase,Tree Trimming,can i request tree trimming,P39,P39;P39;P39;P39;P39,1
+vector,T113,Clean paraphrase,Tree Trimming,who trims trees near utility lines,P28;P39,P39;P39;P28;P39;P39,1
+vector,T114,Clean paraphrase,Tree Trimming,dangerous tree near electrical wires,P39,P39;P28;P39;P39;P39,1
+vector,T115,Ambiguous,Tree Trimming,my tree is a problem,P39,P39;P39;P39;P39;P39,1
+vector,T116,Clean paraphrase,Safety,what should i do after a storm outage,P34;P45,P34;P45;P34;P34;P34,1
+vector,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35,P30;P30;P30;P30;P45,
+vector,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31,P45;P35;P45;P31;P39,2
+vector,T119,Ambiguous,Safety,what should i do its freezing,P31;P45,P31;P45;P31;P19;P45,1
+vector,T120,Clean paraphrase,Safety,how long will my fridge food stay good without power,P45,P34;P45;P45;P34;P34,2
+vector,T121,Clean paraphrase,Safety,can i run a generator in my garage,P45,P30;P34;P45;P30;P22,3
+vector,T122,Clean paraphrase,Safety,can i plug the fridge into a power strip,P30,P34;P30;P45;P30;P45,2
+vector,T123,Ambiguous,Safety,my outlet sparked,P30,P30;P30;P30;P30;P03,1
+vector,T124,Clean paraphrase,Safety,its 105 out where can i go to stay cool,P31,P19;P19;P31;P31;P19,3
+vector,T125,Clean paraphrase,Safety,do i need special plugs near the sink,P30,P30;P30;P30;P30;P24,1
+hybrid,T001,Transactional,Report Outage,lights are out at my house how do i tell you,P01;P02;P03;P34;P35,P03;P03;P34;P03;P01,1
+hybrid,T002,Transactional,Report Outage,need to report a blackout,P01;P02;P03;P34;P35,P04;P01;P46;P03;P02,2
+hybrid,T003,Transactional,Report Outage,our whole block lost power,P01;P02;P03;P34;P35,P02;P36;P36;P34;P35,1
+hybrid,T004,Transactional,Report Outage,can you send someone my power went out,P01;P02;P03;P34;P35,P03;P03;P02;P03;P35,1
+hybrid,T005,Transactional,Report Outage,electricity is out where do i report it,P01;P02;P03;P34;P35,P01;P46;P04;P02;P03,1
+hybrid,T006,Clean paraphrase,Report Outage,what's the fastest way to let austin energy know my power is off,P01;P02;P03;P34;P35,P46;P01;P35;P03;P03,2
+hybrid,T007,Ambiguous,Report Outage,nothing is working,P01;P02;P03;P34;P35,P02;P34;P35;P02;P36,1
+hybrid,T008,Clean paraphrase,Report Outage,who do i contact when the lights go out,P01;P02;P03;P34;P35,P03;P34;P34;P34;P35,1
+hybrid,T009,Typos / slang,Report Outage,pwr out cant get lights bak on,P01;P02;P03;P34;P35,P34;P34;P34;P35;P36,1
+hybrid,T010,Clean paraphrase,Report Outage,my neighborhood has no electricity,P01;P02;P03;P34;P35,P34;P35;P02;P34;P40,1
+hybrid,T011,Transactional,Check Outage Status,check outage status,P02;P36,P02;P02;P01;P46;P03,1
+hybrid,T012,Transactional,Check Outage Status,is there a way to see when power will be back,P02;P36,P34;P36;P34;P36;P36,2
+hybrid,T013,Transactional,Check Outage Status,show me outage map,P02;P36,P02;P02;P02;P02;P02,1
+hybrid,T014,Spanish,Check Outage Status,quiero saber cuándo regresa la luz,P02;P36,P03;P11;P32;P33;P36,5
+hybrid,T015,Clean paraphrase,Check Outage Status,how long until service is restored,P02;P36,P36;P36;P36;P34;P35,1
+hybrid,T016,Ambiguous,Outage Alerts,can i get updates,P03,P03;P03;P01;P02;P03,1
+hybrid,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P31;P35;P45,P03;P03;P03;P03;P01,
+hybrid,T018,Typos / slang,Outage Alerts,how i get txts when power out,P35;P31;P45,P03;P03;P03;P34;P01,
+hybrid,T019,Clean paraphrase,Outage Alerts,send outage notifications to my phone,P03,P03;P03;P03;P01;P03,1
+hybrid,T020,Spanish,Outage Alerts,cómo recibo alertas de apagones,P03;P01,P03;P14;P03;P14;P03,1
+hybrid,T021,Clean paraphrase,Downed Power Lines,there's a power line hanging in my yard,P04;P35,P44;P44;P39;P39;P39,
+hybrid,T022,Ambiguous,Downed Power Lines,something fell near the pole,P04;P35,P44;P44;P30;P45;P39,
+hybrid,T023,Clean paraphrase,Downed Power Lines,a wire is on the ground outside,P04;P35,P44;P44;P30;P39;P44,
+hybrid,T024,Typos / slang,Downed Power Lines,power line dwn by road,P04;P35,P44;P45;P45;P35;P39,4
+hybrid,T025,Clean paraphrase,Downed Power Lines,i think a utility line snapped during the storm,P04;P35,P34;P39;P35;P35;P45,3
+hybrid,T026,Spanish,Understand My Bill,por qué mi factura es tan alta,P06;P37,P11;P44;P13;P44;P03,
+hybrid,T027,Clean paraphrase,Understand My Bill,what is the power supply adjustment charge,P37,P37;P43;P43;P24;P24,1
+hybrid,T028,Ambiguous,Understand My Bill,my bill looks wrong,P11;P06;P05,P11;P05;P05;P29;P11,1
+hybrid,T029,Clean paraphrase,Understand My Bill,explain these charges on my bill,P37;P05,P05;P05;P37;P37;P11,1
+hybrid,T030,Typos / slang,Understand My Bill,y bill way higher this month,P06;P37,P47;P05;P13;P13;P13,
+hybrid,T031,Clean paraphrase,Understand My Bill,what am i paying for besides electricity,P05;P37,P37;P05;P37;P37;P22,1
+hybrid,T032,Spanish,Understand My Bill,no entiendo los cargos en mi factura,P37;P05,P09;P05;P22;P33;P37,2
+hybrid,T033,Clean paraphrase,Understand My Bill,where can i see a breakdown of my bill,P06,P06;P05;P05;P11;P09,1
+hybrid,T034,Ambiguous,Understand My Bill,why am i being charged so much,P06;P37;P11,P37;P37;P25;P05;P20,1
+hybrid,T035,Clean paraphrase,Understand My Bill,what is the monthly customer charge,P37,P09;P37;P37;P05;P20,2
+hybrid,T036,Typos / slang,Payment Options,how i pay bill online,P38;P07,P47;P07;P38;P07;P07,2
+hybrid,T037,Clean paraphrase,Payment Options,what ways can i pay my utility bill,P07,P47;P26;P07;P07;P09,3
+hybrid,T038,Spanish,Payment Options,puedo pagar mi factura por internet,P38;P07,P03;P47;P09;P43;P07,5
+hybrid,T039,Clean paraphrase,Payment Options,can i pay over the phone,P38;P07,P07;P29;P09;P07;P47,1
+hybrid,T040,Ambiguous,Payment Options,i need to make a payment,P07;P08,P47;P38;P38;P07;P09,4
+hybrid,T041,Clean paraphrase,Payment Arrangement,can i split my bill into payments,P08;P09,P09;P08;P09;P09;P08,1
+hybrid,T042,Typos / slang,Payment Arrangement,cant pay whole bill rn,P08;P09,P47;P07;P08;P09;P08,3
+hybrid,T043,Clean paraphrase,Payment Arrangement,do you offer payment plans,P08;P09,P09;P08;P09;P09;P08,1
+hybrid,T044,Spanish,Payment Arrangement,necesito más tiempo para pagar mi factura,P08;P09,P09;P22;P09;P33;P03,1
+hybrid,T045,Clean paraphrase,Payment Arrangement,can i request a payment plan online,P08,P08;P09;P09;P08;P08,1
+hybrid,T046,Ambiguous,Collections,i got a letter in the mail,P10;P29,P13;P10;P22;P29;P14,2
+hybrid,T047,Clean paraphrase,Collections,will they cut off my power if im a week late paying,P10;P09,P09;P29;P10;P09;P08,1
+hybrid,T048,Typos / slang,Collections,got disconnect notice wat now,P10,P10;P10;P29;P10;P03,1
+hybrid,T049,Clean paraphrase,Collections,how do i keep my electricity from being shut off,P10;P08,P34;P19;P45;P45;P10,5
+hybrid,T050,Spanish,Collections,recibí un aviso de desconexión,P10,P03;P10;P14;P10;P14,2
+hybrid,T051,Transactional,Bill Dispute,i think i was billed incorrectly,P11,P11;P11;P09;P29;P05,1
+hybrid,T052,Transactional,Bill Dispute,how do i dispute a charge,P11,P11;P11;P27;P29;P36,1
+hybrid,T053,Clean paraphrase,Bill Dispute,someone needs to review my bill,P11,P11;P10;P11;P13;P29,1
+hybrid,T054,Ambiguous,Bill Dispute,this amount doesn't seem right,P11;P06,P27;P29;P22;P23;P17,
+hybrid,T055,Clean paraphrase,Bill Dispute,how do i contest my electric bill,P11,P11;P11;P10;P29;P29,1
+hybrid,T056,Typos / slang,CAP,any hlp paying utilty bill,P12;P13,P47;P13;P09;P07;P08,2
+hybrid,T057,Clean paraphrase,CAP,i'm struggling to pay my electric bill,P12,P47;P07;P09;P10;P09,
+hybrid,T058,Spanish,CAP,hay programas de ayuda para personas de bajos ingresos,P12;P13,P14;P13;P22;P12;P14,2
+hybrid,T059,Clean paraphrase,CAP,do low income customers qualify for help,P13,P13;P12;P13;P14;P13,1
+hybrid,T060,Ambiguous,CAP,can i get a discount,P13;P15;P20,P13;P13;P13;P13;P09,1
+hybrid,T061,Clean paraphrase,CAP,what documents do i need for assistance,P13,P14;P13;P13;P14;P13,2
+hybrid,T062,Typos / slang,CAP,how do i aply 4 bill discount,P13,P13;P13;P13;P13;P09,1
+hybrid,T063,Clean paraphrase,CAP,i need financial help,P12,P12;P14;P07;P07;P09,1
+hybrid,T064,Spanish,CAP,ayuda para pagar la electricidad,P12;P13,P11;P47;P13;P22;P03,3
+hybrid,T065,Clean paraphrase,CAP,what programs exist if i can't afford my bill,P12,P13;P13;P13;P09;P12,5
+hybrid,T066,Ambiguous,Weatherization,my house is always hot,P14;P17;P19,P19;P19;P19;P31;P30,1
+hybrid,T067,Clean paraphrase,Weatherization,can someone help make my home more energy efficient,P14;P17,P19;P19;P17;P17;P19,3
+hybrid,T068,Typos / slang,Weatherization,do i qualfy for free home repairs,P14,P14;P14;P17;P17;P14,1
+hybrid,T069,Clean paraphrase,Weatherization,how do i sign up for weatherization,P14,P14;P14;P14;P19;P18,1
+hybrid,T070,Spanish,Weatherization,aislamiento gratis para mi casa,P14,P22;P27;P14;P33;P03,3
+hybrid,T071,Clean paraphrase,Rebates,what rebates are available right now,P15,P15;P15;P16;P18;P24,1
+hybrid,T072,Ambiguous,Rebates,rebate for my unit,P15;P16,P16;P15;P15;P17;P17,1
+hybrid,T073,Clean paraphrase,Rebates,what incentives can homeowners get,P15;P17,P19;P15;P18;P15;P17,2
+hybrid,T074,Typos / slang,Rebates,any rebaets for my hous,P15,P19;P22;P15;P22;P15,3
+hybrid,T075,Clean paraphrase,Rebates,is there a rebate for a heat pump water heater,P15,P15;P41;P16;P17;P16,1
+hybrid,T076,Spanish,Rebates,hay reembolso por un aire acondicionado nuevo,P16,P03;P16;P16;P16;P16,2
+hybrid,T077,Clean paraphrase,Rebates,can i get money back for replacing my hvac,P16,P17;P17;P16;P19;P19,3
+hybrid,T078,Ambiguous,Rebates,my ac is old,P16;P17,P16;P16;P16;P17;P16,1
+hybrid,T079,Clean paraphrase,Rebates,rebate for attic insulation,P17,P17;P17;P15;P15;P16,1
+hybrid,T080,Typos / slang,Rebates,insulashun rebate??,P17,P15;P15;P22;P22;P22,
+hybrid,T081,Clean paraphrase,GreenChoice,can my house run on wind and solar,P20;P21,P22;P22;P22;P22;P22,
+hybrid,T082,Spanish,GreenChoice,cómo me inscribo en energía renovable,P20;P21,P33;P22;P14;P20;P14,4
+hybrid,T083,Clean paraphrase,GreenChoice,how much extra does green power cost,P20;P21,P21;P20;P20;P21;P37,1
+hybrid,T084,Ambiguous,GreenChoice,i want clean energy,P20;P22,P33;P37;P21;P21;P20,5
+hybrid,T085,Clean paraphrase,GreenChoice,is there a penalty if i stop greenchoice,P20;P21,P21;P21;P21;P20;P20,1
+hybrid,T086,Typos / slang,Home Solar,do yall buy back solr power,P22;P23,P22;P22;P23;P22;P34,1
+hybrid,T087,Clean paraphrase,Home Solar,how much is the rebate for putting panels on my roof,P22,P22;P22;P22;P22;P15,1
+hybrid,T088,Spanish,Home Solar,cuánto me pagan por la energía solar que produzco,P22;P23,P22;P22;P22;P23;P22,1
+hybrid,T089,Clean paraphrase,Home Solar,what happens to solar credits i dont use,P22;P23,P23;P22;P23;P22;P23,1
+hybrid,T090,Ambiguous,Home Solar,solar,P22;P23;P20,P22;P22;P22;P33;P22,1
+hybrid,T091,Clean paraphrase,EV Programs,is there a rebate for a home ev charger,P24,P24;P24;P24;P24;P15,1
+hybrid,T092,Typos / slang,EV Programs,ev chargr rebate how much,P24,P24;P24;P24;P24;P25,1
+hybrid,T093,Clean paraphrase,EV Programs,whats the cheapest time to charge my car,P25,P25;P25;P25;P24;P24,1
+hybrid,T094,Spanish,EV Programs,dónde puedo cargar mi carro eléctrico en austin,P25,P25;P24;P25;P24;P25,1
+hybrid,T095,Clean paraphrase,EV Programs,what is power partner ev,P43,P43;P43;P43;P43;P18,1
+hybrid,T096,Transactional,Start/Stop/Transfer Service,im moving out and need to shut off my electricity,P26,P34;P45;P03;P03;P10,
+hybrid,T097,Transactional,Start/Stop/Transfer Service,start electric service at my new apartment,P26;P27,P26;P27;P04;P44;P10,1
+hybrid,T098,Transactional,Start/Stop/Transfer Service,transfer my utilities to my new address next week,P26,P26;P26;P26;P27;P10,1
+hybrid,T099,Transactional,Start/Stop/Transfer Service,stop service at my old place,P26,P26;P27;P27;P10;P10,1
+hybrid,T100,Transactional,Start/Stop/Transfer Service,i need to put the power in my name,P26;P27,P43;P18;P04;P03;P03,
+hybrid,T101,Ambiguous,Start/Stop/Transfer Service,im moving,P26,P22;P27;P19;P10;P19,
+hybrid,T102,Clean paraphrase,Start/Stop/Transfer Service,how do i transfer utilities,P26,P26;P26;P26;P10;P47,1
+hybrid,T103,Typos / slang,Start/Stop/Transfer Service,movin houses need lights on at new place,P26,P32;P22;P19;P22;P30,
+hybrid,T104,Clean paraphrase,Start/Stop/Transfer Service,do i have to pay a deposit to start service,P27,P27;P27;P27;P27;P27,1
+hybrid,T105,Spanish,Start/Stop/Transfer Service,transferir mi servicio,P26,P26;P26;P03;P27;P26,1
+hybrid,T106,Clean paraphrase,Scam Awareness,someone called saying theyll cut my power in an hour unless i pay,P29;P10,P04;P29;P29;P10;P29,2
+hybrid,T107,Ambiguous,Scam Awareness,i got a weird call about my account,P29,P04;P29;P29;P10;P29,2
+hybrid,T108,Clean paraphrase,Scam Awareness,they want me to pay my bill with a gift card is that real,P29,P29;P29;P29;P07;P07,1
+hybrid,T109,Clean paraphrase,Scam Awareness,a guy at my door says hes from austin energy selling solar panels,P29;P04,P22;P42;P29;P33;P29,3
+hybrid,T110,Clean paraphrase,Scam Awareness,how do i know if a rebate offer is legit,P42,P42;P42;P24;P15;P22,1
+hybrid,T111,Ambiguous,Tree Trimming,tree branches are touching power lines,P39;P04,P39;P28;P39;P39;P39,1
+hybrid,T112,Clean paraphrase,Tree Trimming,can i request tree trimming,P39,P39;P39;P39;P39;P39,1
+hybrid,T113,Clean paraphrase,Tree Trimming,who trims trees near utility lines,P28;P39,P28;P39;P39;P39;P39,1
+hybrid,T114,Clean paraphrase,Tree Trimming,dangerous tree near electrical wires,P39,P28;P39;P39;P39;P39,2
+hybrid,T115,Ambiguous,Tree Trimming,my tree is a problem,P39,P39;P39;P39;P39;P39,1
+hybrid,T116,Clean paraphrase,Safety,what should i do after a storm outage,P34;P45,P34;P34;P34;P34;P45,1
+hybrid,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35,P45;P30;P30;P30;P30,
+hybrid,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31,P39;P35;P45;P31;P45,2
+hybrid,T119,Ambiguous,Safety,what should i do its freezing,P31;P45,P45;P31;P19;P34;P34,1
+hybrid,T120,Clean paraphrase,Safety,how long will my fridge food stay good without power,P45,P45;P45;P34;P34;P34,1
+hybrid,T121,Clean paraphrase,Safety,can i run a generator in my garage,P45,P45;P34;P30;P22;P30,1
+hybrid,T122,Clean paraphrase,Safety,can i plug the fridge into a power strip,P30,P30;P30;P34;P45;P45,1
+hybrid,T123,Ambiguous,Safety,my outlet sparked,P30,P30;P30;P30;P30;P39,1
+hybrid,T124,Clean paraphrase,Safety,its 105 out where can i go to stay cool,P31,P19;P31;P19;P19;P31,2
+hybrid,T125,Clean paraphrase,Safety,do i need special plugs near the sink,P30,P30;P30;P24;P30;P31,1
