@@ -15,8 +15,8 @@ keyword,T013,Transactional,Check Outage Status,show me outage map,P02;P36,P02;P0
 keyword,T014,Spanish,Check Outage Status,quiero saber cuándo regresa la luz,P02;P36,P11;P33,
 keyword,T015,Clean paraphrase,Check Outage Status,how long until service is restored,P02;P36,P36;P10;P36;P26;P36,1
 keyword,T016,Ambiguous,Outage Alerts,can i get updates,P03,P03;P03;P01;P46;P02,1
-keyword,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P31;P35;P45,P03;P36;P03;P03;P02,
-keyword,T018,Typos / slang,Outage Alerts,how i get txts when power out,P35;P31;P45,P36;P03;P03;P36;P03,
+keyword,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P03,P03;P36;P03;P03;P02,1
+keyword,T018,Typos / slang,Outage Alerts,how i get txts when power out,P03,P36;P03;P03;P36;P03,2
 keyword,T019,Clean paraphrase,Outage Alerts,send outage notifications to my phone,P03,P34;P35;P03;P03;P03,3
 keyword,T020,Spanish,Outage Alerts,cómo recibo alertas de apagones,P03;P01,P14;P14;P11;P22;P33,
 keyword,T021,Clean paraphrase,Downed Power Lines,there's a power line hanging in my yard,P04;P35,P04;P44;P31;P31;P39,1
@@ -115,8 +115,8 @@ keyword,T113,Clean paraphrase,Tree Trimming,who trims trees near utility lines,P
 keyword,T114,Clean paraphrase,Tree Trimming,dangerous tree near electrical wires,P39,P28;P44;P39;P39;P28,3
 keyword,T115,Ambiguous,Tree Trimming,my tree is a problem,P39,P04;P39;P28;P28;P28,2
 keyword,T116,Clean paraphrase,Safety,what should i do after a storm outage,P34;P45,P34;P34;P35;P04;P03,1
-keyword,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35,P45;P45;P36;P45;P44,
-keyword,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31,P04;P44;P39;P02;P36,
+keyword,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35;P45,P45;P45;P36;P45;P44,1
+keyword,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31;P45,P04;P44;P39;P02;P36,
 keyword,T119,Ambiguous,Safety,what should i do its freezing,P31;P45,P34;P34;P34;P34;P34,
 keyword,T120,Clean paraphrase,Safety,how long will my fridge food stay good without power,P45,P45;P45;P36;P36;P34,1
 keyword,T121,Clean paraphrase,Safety,can i run a generator in my garage,P45,P45;P34;P21;P30;P31,1
@@ -140,8 +140,8 @@ vector,T013,Transactional,Check Outage Status,show me outage map,P02;P36,P02;P02
 vector,T014,Spanish,Check Outage Status,quiero saber cuándo regresa la luz,P02;P36,P03;P32;P36;P34;P35,3
 vector,T015,Clean paraphrase,Check Outage Status,how long until service is restored,P02;P36,P36;P36;P36;P34;P35,1
 vector,T016,Ambiguous,Outage Alerts,can i get updates,P03,P03;P03;P01;P03;P02,1
-vector,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P31;P35;P45,P03;P03;P03;P01;P03,
-vector,T018,Typos / slang,Outage Alerts,how i get txts when power out,P35;P31;P45,P03;P03;P03;P01;P34,
+vector,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P03,P03;P03;P03;P01;P03,1
+vector,T018,Typos / slang,Outage Alerts,how i get txts when power out,P03,P03;P03;P03;P01;P34,1
 vector,T019,Clean paraphrase,Outage Alerts,send outage notifications to my phone,P03,P03;P03;P03;P01;P03,1
 vector,T020,Spanish,Outage Alerts,cómo recibo alertas de apagones,P03;P01,P03;P03;P03;P01;P46,1
 vector,T021,Clean paraphrase,Downed Power Lines,there's a power line hanging in my yard,P04;P35,P44;P39;P39;P39;P44,
@@ -240,8 +240,8 @@ vector,T113,Clean paraphrase,Tree Trimming,who trims trees near utility lines,P2
 vector,T114,Clean paraphrase,Tree Trimming,dangerous tree near electrical wires,P39,P39;P28;P39;P39;P39,1
 vector,T115,Ambiguous,Tree Trimming,my tree is a problem,P39,P39;P39;P39;P39;P39,1
 vector,T116,Clean paraphrase,Safety,what should i do after a storm outage,P34;P45,P34;P45;P34;P34;P34,1
-vector,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35,P30;P30;P30;P30;P45,
-vector,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31,P45;P35;P45;P31;P39,2
+vector,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35;P45,P30;P30;P30;P30;P45,5
+vector,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31;P45,P45;P35;P45;P31;P39,1
 vector,T119,Ambiguous,Safety,what should i do its freezing,P31;P45,P31;P45;P31;P19;P45,1
 vector,T120,Clean paraphrase,Safety,how long will my fridge food stay good without power,P45,P34;P45;P45;P34;P34,2
 vector,T121,Clean paraphrase,Safety,can i run a generator in my garage,P45,P30;P34;P45;P30;P22,3
@@ -265,8 +265,8 @@ hybrid,T013,Transactional,Check Outage Status,show me outage map,P02;P36,P02;P02
 hybrid,T014,Spanish,Check Outage Status,quiero saber cuándo regresa la luz,P02;P36,P03;P11;P32;P33;P36,5
 hybrid,T015,Clean paraphrase,Check Outage Status,how long until service is restored,P02;P36,P36;P36;P36;P34;P35,1
 hybrid,T016,Ambiguous,Outage Alerts,can i get updates,P03,P03;P03;P01;P02;P03,1
-hybrid,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P31;P35;P45,P03;P03;P03;P03;P01,
-hybrid,T018,Typos / slang,Outage Alerts,how i get txts when power out,P35;P31;P45,P03;P03;P03;P34;P01,
+hybrid,T017,Clean paraphrase,Outage Alerts,how do i sign up for outage texts,P03,P03;P03;P03;P03;P01,1
+hybrid,T018,Typos / slang,Outage Alerts,how i get txts when power out,P03,P03;P03;P03;P34;P01,1
 hybrid,T019,Clean paraphrase,Outage Alerts,send outage notifications to my phone,P03,P03;P03;P03;P01;P03,1
 hybrid,T020,Spanish,Outage Alerts,cómo recibo alertas de apagones,P03;P01,P03;P14;P03;P14;P03,1
 hybrid,T021,Clean paraphrase,Downed Power Lines,there's a power line hanging in my yard,P04;P35,P44;P44;P39;P39;P39,
@@ -365,8 +365,8 @@ hybrid,T113,Clean paraphrase,Tree Trimming,who trims trees near utility lines,P2
 hybrid,T114,Clean paraphrase,Tree Trimming,dangerous tree near electrical wires,P39,P28;P39;P39;P39;P39,2
 hybrid,T115,Ambiguous,Tree Trimming,my tree is a problem,P39,P39;P39;P39;P39;P39,1
 hybrid,T116,Clean paraphrase,Safety,what should i do after a storm outage,P34;P45,P34;P34;P34;P34;P45,1
-hybrid,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35,P45;P30;P30;P30;P30,
-hybrid,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31,P39;P35;P45;P31;P45,2
+hybrid,T117,Clean paraphrase,Safety,how do i stay safe around damaged power equipment,P31;P35;P45,P45;P30;P30;P30;P30,1
+hybrid,T118,Clean paraphrase,Safety,is a downed line dangerous even if it isn't sparking,P35;P31;P45,P39;P35;P45;P31;P45,2
 hybrid,T119,Ambiguous,Safety,what should i do its freezing,P31;P45,P45;P31;P19;P34;P34,1
 hybrid,T120,Clean paraphrase,Safety,how long will my fridge food stay good without power,P45,P45;P45;P34;P34;P34,1
 hybrid,T121,Clean paraphrase,Safety,can i run a generator in my garage,P45,P45;P34;P30;P22;P30,1
