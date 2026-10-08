@@ -56,7 +56,10 @@ def answer_question(question):
         index = int(label.strip("S[] ")) - 1 if label.strip("S[] ").isdigit() else -1
         if 0 <= index < len(hits):
             cited.append(hits[index]["page_id"])
-
+           
+    if not result.get("answerable", False):
+        cited = []
+       
     return {
         "answer": result.get("answer", FALLBACK),
         "answerable": bool(result.get("answerable", False)),
@@ -72,6 +75,7 @@ if __name__ == "__main__":
     question = " ".join(sys.argv[1:])
     result = answer_question(question)
     print(result["answer"])
-    print(f"\nanswerable: {result['answerable']}  cited: {result['cited_pages']}  "
-          f"retrieved: {result['retrieved_pages']}")
+    if result["cited_pages"]:
+        print("\nSources: " + ", ".join(result["cited_pages"]))
+    print(f"\nanswerable: {result['answerable']}  retrieved: {result['retrieved_pages']}")
     print(f"latency: {result['latency_s']}s  tokens: {result['input_tokens']} in / {result['output_tokens']} out")
