@@ -5,8 +5,8 @@ from openai import AzureOpenAI
 
 load_dotenv()
 client = AzureOpenAI(
-    azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
-    api_key=os.environ["AZURE_OPENAI_KEY"],
+    azure_endpoint=os.environ["https://mrajeevn-1058-resource.services.ai.azure.com/openai/v1/responses"],
+    api_key=os.environ["4ViZbLlbEpm2uRpG1o3fs7jxSO7QvtTXdT0jUTafKfTMKIOBHiHUJQQJ99CJACHrzpqXJ3w3AAAAACOG3K1G"],
     api_version="2024-10-21",
 )
 
